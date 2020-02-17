@@ -1,0 +1,1 @@
+const colors = ['red', 'blue', 'yellow', 'green', 'magenta', 'cyan'];

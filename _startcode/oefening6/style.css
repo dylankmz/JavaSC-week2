@@ -1,0 +1,84 @@
+* {
+  font-family: sans-serif;
+}
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+body{
+  text-align: center;
+}
+header {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.interface{
+  background-color: white;
+  width: 300px;
+  margin: auto;
+
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  border: 1px solid black;
+  padding: 40px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none !important;
+}
+.oxo-button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.oxo-button.active {
+  border: 1px solid rgb(49, 231, 155);
+  background: linear-gradient(60deg, rgb(39, 192, 128) ,rgb(49, 231, 155));
+  color: white;
+}
+.oxo-button:hover{
+  border: 1px solid rgb(49, 231, 155);
+  box-shadow: 1px 1px 2px rgba(49, 231, 155, 0.26);
+}
+
+.oxo-button:first-child{
+  margin-left: 0;
+}
+
+.reset {
+  background: linear-gradient(60deg, rgb(175, 41, 41) , rgb(228, 113, 113));
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgb(212, 99, 99);
+}
+.reset:hover {
+  box-shadow: 1px 2px 4px rgba(219, 124, 124, 0.432);
+}
+.table-container{
+  margin-top: 270px;
+}
+/* chess */
+/* tr:nth-child(odd) td:nth-child(even) {
+  background-color: grey;
+}
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: grey;
+} */
