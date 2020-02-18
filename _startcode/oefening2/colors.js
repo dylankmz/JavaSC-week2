@@ -8,7 +8,5 @@ document.body.addEventListener("mouseover", function (event) {
         let random = Math.floor(Math.random() * colors.length);
         event.target.style.backgroundColor = colors[random];
         console.log(random);
-
     }
-
 });
