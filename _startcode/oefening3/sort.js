@@ -2,8 +2,12 @@
 // SORTING ARRAY : https://www.w3schools.com/js/js_array_sort.asp
 
 
-const jsDate = [];
+const s = document.querySelectorAll('#dateList li');
+console.log(s);
 
-let s = document.querySelectorAll('#dateList li');
 
-console.log(s[].innerHTML);
+// let jsDate = [s];
+
+// s.forEach(element => console.log(element.innerHTML)) {
+//     jsDate.sort
+// }
