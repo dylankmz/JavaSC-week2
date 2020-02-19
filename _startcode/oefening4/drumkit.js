@@ -6,8 +6,12 @@ const audio = document.querySelectorAll('audio');
 console.log(audio);
 
 
-drums.forEach(element => {
+drums.forEach((element, index) => {
     element.addEventListener('click', (event) => {
-        audio.play();
+        audio[index].play();
     })
 });
+
+document.addEventListener('keydown'), (event) => {
+
+}
