@@ -15,13 +15,13 @@ drums.forEach((element, index) => {
 
 document.addEventListener('keydown', (event) => {
     const audiox = document.querySelector('audio');
-    console.log(audiox.getAttribute('data-key'));
-    console.log(event.keyCode);
 
     audio.forEach((element, index) => {
-
         if (event.keyCode == element.getAttribute('data-key')) {
             element.play();
+            console.log(element.classList);
+
+            keys[index].classList.add("playing")
         }
     })
 })
