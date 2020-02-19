@@ -3,11 +3,33 @@
 
 
 const s = document.querySelectorAll('#dateList li');
-console.log(s);
+
+let jsDate = [];
+s.forEach(element => {
+    console.log(element.innerHTML)
+    jsDate.push(element.innerHTML)
+
+});
+
+jsDate.sort(function (a, b) {
+    console.log(b);
+    console.log(new Date(b));
+
+    return new Date(b) - new Date(a);
+
+});
+
+jsDate.reverse();
+console.log(jsDate);
+
+s.array.forEach(element, index => {
+    console.log(element.innerHTML, index);
+    element.innerHTML = jsDate[index];
 
 
-// let jsDate = [s];
+});
 
-// s.forEach(element => console.log(element.innerHTML)) {
-//     jsDate.sort
-// }
+
+
+jsDate.sort();
+console.log(jsDate)
